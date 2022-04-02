@@ -6,10 +6,10 @@ import Nav from './components/Nav';
 export default function App(){
     return(
         <div className='App'>
-            <Header />
-            <Nav />
+            {/* <Header />
+            <Nav /> */}
             <Article />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
