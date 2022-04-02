@@ -1,0 +1,89 @@
+.App {
+  border-left: 5px;
+  color: lightgray;
+  margin: auto;
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+}
+
+.header,
+.main,
+.footer {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.time {
+  color: darkgray;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+h1 {
+  color: tomato;
+}
+img {
+  width: 100%;
+  border-radius: 2em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+}
+ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+}
+a {
+    color: darkgray;
+}
+header > h1 {
+  font-size: 4em;
+  margin: 0;
+  font-weight: 100;
+  color: tomato;
+}
+
+header > h2 {
+  font-weight: lighter;
+  font-size: 2em;
+  color: rgb(35, 31, 31);
+}
+footer nav > ul > li > a {
+  color: tomato;
+  font-size: 1em;
+  font-weight: bold;
+}
+article > div > p::first-letter {
+    color: purple;
+    font-size: 300%;
+    float: left;
+}
+.article-1 {
+  border-bottom: 1px solid rgb(210, 11, 11);
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.article-2 {
+  border-bottom: 1px solid rgb(18, 220, 92);
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.continues {
+  display: flex;
+  justify-content: right;
+  color: tomato;
+  font-weight: bold;
+}
+.copyright {
+  color: rgb(140, 134, 134);
+}
